@@ -1,0 +1,72 @@
+.create-course-container {
+    padding: 40px;
+    background-color: #f4f4f9; /* Light background for the form */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 600px; /* Max width for better readability */
+    margin: 20px auto; /* Centering the container */
+}
+
+.create-course-title {
+    color: #333; /* Dark color for the title */
+    font-size: 2rem;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+}
+
+.create-course-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+    gap: 20px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input */
+}
+
+label {
+    color: #555; /* Color for labels */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for better visibility */
+}
+
+.create-course-input,
+.create-course-textarea {
+    padding: 12px; /* Increased padding for inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Font size for better readability */
+    transition: border-color 0.3s; /* Transition for focus effect */
+}
+
+.create-course-input:focus,
+.create-course-textarea:focus {
+    border-color: #34495e; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.create-course-textarea {
+    resize: none; /* Disable resizing for the textarea */
+    height: 100px; /* Fixed height for the textarea */
+}
+
+.create-course-button {
+    padding: 12px 20px; /* Padding for button */
+    background-color: #34495e; /* Primary color for button */
+    color: white; /* Text color for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+.create-course-button:hover {
+    background-color: #2c3e50; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.create-course-button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}

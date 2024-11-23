@@ -1,0 +1,23 @@
+.course-list-container {
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background for the container */
+}
+
+.course-list-title {
+    color: #333; /* Dark color for the title */
+    font-size: 2rem;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.course-item {
+    background-color: #ffffff; /* White background for each course item */
+    margin: 10px 0; /* Space between course items */
+    padding: 15px; /* Inner spacing for course item */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth hover transition */
+}
+
+.course-item:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
